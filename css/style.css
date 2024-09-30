@@ -190,3 +190,15 @@ footer nav ul {
 footer .container {
 	width: 800px;
 }
+
+@media screen and (min-width: 576px) {
+	.social-section li {
+		font-size: 1.7rem;
+	}
+
+	.presentation-section figure {
+		float: left;
+		width: 60%;
+		margin-right: 20px;
+	}
+}
