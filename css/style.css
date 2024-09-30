@@ -21,6 +21,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #f6f5f3;
+	overflow-x: hidden;
 }
 
 img {
@@ -60,7 +61,7 @@ svg {
 /* *HEADER */
 header {
 	width: 100%;
-	aspect-ratio: 22;
+	/* aspect-ratio: 22; */
 	text-align: center;
 	background-color: white;
 }
@@ -210,6 +211,9 @@ footer .container {
 @media screen and (min-width: 768px) {
 	header {
 		text-align: left;
+	}
+
+	header a {
 		margin-left: 20px;
 	}
 
@@ -223,6 +227,11 @@ footer .container {
 
 	main h1 {
 		font-size: 1.8rem;
+		padding-bottom: 20px;
+	}
+
+	main .subtitle {
+		padding-top: 40px;
 	}
 
 	.video-section li {
@@ -233,5 +242,90 @@ footer .container {
 	.video-section ul {
 		display: flex;
 		flex-wrap: wrap;
+	}
+}
+
+/* *DESKTOP */
+@media screen and (min-width: 992px) {
+	header a {
+		font-size: 4rem;
+	}
+
+	.container {
+		width: 1400px;
+	}
+
+	main h1 {
+		font-size: 3rem;
+	}
+
+	.video-section {
+		display: flex;
+	}
+
+	.video-section ul {
+		display: block;
+		width: 20vw;
+	}
+
+	.video-section .recipe-details ul li {
+		width: 100%;
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+
+	.video-section .recipe-details h3 {
+		font-size: 1.5rem;
+	}
+
+	.social-section ul {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.social-section ul li {
+		padding-inline: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.social-section ul li span {
+		display: inline;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+	.ads-section {
+		display: block;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.ads-section img {
+		width: 100%;
+	}
+
+	.presentation-section h2 {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+	.description figure {
+		width: 30%;
+	}
+	.description p {
+		font-size: 1.3rem;
+		line-height: 2.5rem;
+	}
+
+	.description {
+		margin-block: 50px;
+	}
+
+	footer .container {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	footer .container address {
+		text-align: left;
 	}
 }
