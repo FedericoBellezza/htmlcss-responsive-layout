@@ -191,14 +191,47 @@ footer .container {
 	width: 800px;
 }
 
+/* *LARGE MOBILE */
 @media screen and (min-width: 576px) {
 	.social-section li {
 		font-size: 1.7rem;
+		padding-inline: 7%;
+		padding-block: 5px;
 	}
 
 	.presentation-section figure {
 		float: left;
 		width: 60%;
 		margin-right: 20px;
+	}
+}
+
+/* *TABLET */
+@media screen and (min-width: 768px) {
+	header {
+		text-align: left;
+		margin-left: 20px;
+	}
+
+	main .container {
+		padding-inline: 30px;
+	}
+
+	main .container span.title-label {
+		display: inline;
+	}
+
+	main h1 {
+		font-size: 1.8rem;
+	}
+
+	.video-section li {
+		width: calc(100% / 3);
+		margin-block: 10px;
+	}
+
+	.video-section ul {
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
