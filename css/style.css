@@ -40,3 +40,153 @@ ul {
 svg {
 	fill: currentColor;
 }
+
+.d-none {
+	display: none;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-inline {
+	display: inline;
+}
+
+/* *HEADER */
+header {
+	width: 100%;
+	aspect-ratio: 22;
+	text-align: center;
+	background-color: white;
+}
+
+header a {
+	font-size: 3rem;
+	font-family: 'Nerko One';
+	color: #ff9614;
+}
+
+/* *VIDEO SECTION */
+
+main h3.subtitle {
+	font-weight: 300;
+	font-size: 0.9rem;
+	color: gray;
+	margin-block: 10px;
+}
+
+main h1 {
+	color: #4e3969;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.video-section iframe {
+	width: 100%;
+	aspect-ratio: 1.75;
+}
+
+.video-section {
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 10px 0px rgb(202, 202, 202);
+}
+
+.video-section .recipe-details {
+	padding: 30px;
+}
+
+.video-section .recipe-details h3 {
+	margin-bottom: 20px;
+}
+
+.video-section .recipe-details li {
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+}
+
+.video-section .recipe-details li span {
+	font-weight: 700;
+}
+
+/* *SOCIAL SECTION */
+.social-section ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.social-section .fa-facebook {
+	color: #1a77f3;
+}
+.social-section .fa-twitter {
+	color: #009eff;
+}
+.social-section .fa-instagram {
+	color: #df5eb2;
+}
+.social-section .fa-pinterest {
+	color: #e62222;
+}
+.social-section .fa-youtube {
+	color: #e62222;
+}
+
+.social-section li {
+	background-color: white;
+	padding: 10px 10px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 0px rgb(202, 202, 202);
+}
+
+/* *PRESENTATION SECTION */
+.presentation-section h2 {
+	font-weight: 500;
+}
+
+.presentation-section hr {
+	width: 15%;
+	border: 1px solid orange;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.presentation-section p {
+	line-height: 1.7rem;
+	margin-bottom: 20px;
+}
+
+.presentation-section figure {
+	width: 70%;
+	margin: 0px auto;
+}
+
+/* *FOOTER */
+footer {
+	background-color: #7c69a4;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}
+
+footer nav ul {
+	display: flex;
+	gap: 20px;
+	text-decoration: underline;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-block: 20px;
+}
+
+footer .container {
+	width: 800px;
+}
